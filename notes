@@ -1,0 +1,76 @@
+1. use &nbsp for spaces
+2. <p></p> for para
+3. <h1></h1>  to <h6></h6> for headings from big to small.
+4. unordered list
+<ul type="circle"> default type is disc, also square is a value
+    <li></li>
+    <li></li>
+</ul>(bullets)
+5. ordered list
+<ol type="A" start="10">default is numberingeg 1.  2. can be 1,A,a,i,I
+    <li value="4"></li> value attribute makes start from a certain numbering
+    <li></li>
+    <li></li>
+</ol>
+<hr> tag for horizontal rule (line)
+6. <img> tag is used to add image. eg:
+<img src ="path" alt="when imh not load"(set alternate text for image) height="" width=""(in px or percentage)>
+7. links:(hosted at another server)
+we use anchor tags <a href="link"> content to make hyperlink</a>(opens in the same page)
+if want to opem in new page then use <a href="link" target="_blank"> content to make hyperlink</a>
+ GO TO TOP:<a href="#"></a>
+ GOTO SPECIFIC:<a href=""></a>
+8. webpages hosted in the same computer:
+9.to add video <video controls>
+    <source src="dancin2.mp4" type="video/mp4">
+         </video>
+10. to add a table :
+<table>
+    <tr>
+        <th>first name</th>
+        <th>last name</th>
+        <th>age</th>
+    </tr>
+    <tr>
+        <td>Ayush      </td>
+        <td>Kumar</td>
+        <td>19</td>
+    </tr>
+</table>
+11. Semantic tags
+-->  Header -->  <header></header>
+-->  navigation bar--> <nav></nav>
+-->section <section></section>
+--> side nav bar --> <aside></aside>
+-->footer--> <footer></footer>
+
+use of all 
+<header>
+    <nav>
+        <li>home</li>
+        <li>about</li>
+        
+    </nav>
+</header>
+<aside>dashboard</aside>
+<section>
+    <h3>pizza hut</h3>
+    <p>delivers pizza</p>
+</section>
+<footer>
+    <h1>Hey this is a footer</h1>
+</footer>
+12. ARIA :accessible rich internet applications
+13. <div class=""></div>
+14.media query
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Tablet=768px
+     LAptop=1024px
+     PC= 1280px
+--> CSS:
+@media (min-width: 1280px) {
+    body {
+        background-color: #FFC3A1; 
+    }
+}
+15.
